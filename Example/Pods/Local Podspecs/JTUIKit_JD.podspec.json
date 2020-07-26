@@ -1,0 +1,34 @@
+{
+  "name": "JTUIKit_JD",
+  "version": "0.0.1",
+  "summary": "加推SDK之京东",
+  "description": "TODO: 修复部分问题",
+  "homepage": "http://jci.cbpmgt.com/#/code/repository/git/jiatui_ios",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "柳振": "ext.liuzhen@jd.com"
+  },
+  "source": {
+    "git": "http://jcode.cbpmgt.com/git/jiatui_ios.git",
+    "tag": "0.0.1"
+  },
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  },
+  "resources": "JTUIKit/Assets/JTUIKitBundle.bundle",
+  "public_header_files": "JTUIKit/Headers/*.h",
+  "vendored_libraries": "JTUIKit/Library/libJTSDK.a",
+  "source_files": "JTUIKit/Headers/*",
+  "dependencies": {
+    "SDWebImage": [
+      ">5.0"
+    ],
+    "AFNetworking": [
+
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'JTUIKit_Example' do
+     pod 'JTSDK_PLShortVideo', :path => '../'
+  
+  
+  target 'JTUIKit_Tests' do
+    inherit! :search_paths
+  end
+end

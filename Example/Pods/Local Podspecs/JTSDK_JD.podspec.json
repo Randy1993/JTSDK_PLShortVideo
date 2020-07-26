@@ -1,0 +1,36 @@
+{
+  "name": "JTSDK_JD",
+  "version": "0.0.2",
+  "summary": "加推SDK之京东",
+  "description": "TODO: 修复部分问题",
+  "homepage": "https://14b25ac0b794b704cd0133a84e7652bf5dfaf917@github.com/Randy1993/JTSDK_JD",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "柳振": "211752656@qq.com"
+  },
+  "source": {
+    "git": "https://14b25ac0b794b704cd0133a84e7652bf5dfaf917@github.com/Randy1993/JTSDK_JD",
+    "tag": "0.0.2"
+  },
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  },
+  "resources": "JTSDK_JD/Assets/JTUIKitBundle.bundle",
+  "public_header_files": "JTSDK_JD/Classes/**/*.h",
+  "source_files": "JTSDK_JD/Classes/**/*.{h,m,d,mm,c}",
+  "dependencies": {
+    "SDWebImage": [
+      ">5.0"
+    ],
+    "AFNetworking": [
+
+    ],
+    "PLShortVideoKit": [
+
+    ]
+  }
+}
